@@ -55,7 +55,9 @@ const decode = () => {
 		.toLowerCase()
 		.split(" ")
 		.forEach((char) => {
-			cleartext.value.value += encodedValues[char];
+			if (char.length > 0) {
+				cleartext.value.value += encodedValues[char];
+			}
 		});
 };
 </script>
