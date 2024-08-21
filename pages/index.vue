@@ -1,5 +1,5 @@
 <template></template>
 
 <script setup lang="ts">
-definePageMeta({ name: "Home-ignore" });
+definePageMeta({ name: "Home" });
 </script>
