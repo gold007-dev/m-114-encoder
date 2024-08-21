@@ -4,6 +4,7 @@
 </template>
 
 <script lang="ts" setup>
+definePageMeta({ name: "Morsecode" });
 const cleartext = ref<null | HTMLInputElement>(null);
 const encoded = ref<null | HTMLInputElement>(null);
 const values = {
