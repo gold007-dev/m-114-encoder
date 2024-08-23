@@ -11,7 +11,7 @@
 
 <script lang="ts" setup>
 definePageMeta({
-	name: "Famo Condition",
+	name: "Fano Condition",
 });
 const input = ref();
 const output = ref();
